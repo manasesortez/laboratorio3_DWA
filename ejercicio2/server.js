@@ -1,3 +1,10 @@
+/**
+ * Crear un Servidor Web donde pueda importar su portafolio (el de laboratorio 
+ * 2) despachando los archivos de manera manual (html, js, css, jpg, 
+ * png, etc.) importando los módulos que corresponden para el 
+ * funcionamiento de este.
+ */
+
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
