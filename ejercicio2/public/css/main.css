@@ -2,7 +2,6 @@
 /*-------------------------------------------------------*/
 #profile {
 	background:#cf455c;
-	background-image: url(images/header-shadow.png);
 	background-position: center bottom;
 	background-repeat: repeat-x;
 	overflow: hidden;
@@ -18,7 +17,6 @@
 
 .about .photo-inner {
     float: left;
-    background: url(images/photo-inner.png) no-repeat;
     width: 214px;
     height: 212px;
     padding: 12px 0 0 19px;
@@ -62,7 +60,6 @@
     width: 310px;
     min-height: 230px;
     margin-left: 10px;
-    background: url(images/personal-info-sep.png) no-repeat left top;
     padding: 20px 0 19px 20px;
 }
 span.word-wrap a {
