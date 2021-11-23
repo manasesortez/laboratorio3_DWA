@@ -4,3 +4,7 @@
  * agregar), lógicamente debe crear una carpeta que se puede llamar 
  * “libs” sino como usted desee; para exportarla.
  */
+
+const focus = require('./libs/export');
+
+console.log(focus.personalInfo());
