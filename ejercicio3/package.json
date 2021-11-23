@@ -2,14 +2,19 @@
   "name": "ejercicio3",
   "version": "1.1.0",
   "description": "ejercicio 3 node.js lab",
-  "main": "index.js",
+  "dev": "node index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "node.js",
     "javascripts"
   ],
   "author": "amtoDev",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "underscore": "^1.13.1"
+  }
 }
